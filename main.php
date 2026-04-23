@@ -1,7 +1,15 @@
 <?php
 
 
-echo "na aula de 23/04/2026 eu aprendi a mexer no github/git e desenvolver funções no PHP! =P";
+
+function soma($a, $b, $c){
+    return $a + $b + $c;
+}
+echo "resultado: ", soma(5,7,3);
+
+
+
+
 
 
 

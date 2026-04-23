@@ -14,7 +14,11 @@ function Multiplicar($a, $b){
     return($a * $b);
 }
 
-echo "resultado: ", Multiplicar(10,5);
+function dividir($a, $b){
+    return($a / $b);
+}
+
+echo "resultado: ", dividir(10,5);
 
 
 

@@ -15,13 +15,24 @@ function dolar($valor, $cotacaodolar){
 
     function iene($valor, $cotacaoiene){
     return($valor * $cotacaoiene);}
+}
+namespace areas{
+    function areaquadrado($lado){
+    return($lado * $lado);}
 
+    function arearetangulo($base, $altura){
+    return($base * $altura);}
 
+    function areatriangulo($base, $altura){
+    return($base * $altura);}
 
+    function areacirculo($raio, $pi ){
+    return($pi * ($raio * $raio));}
+
+    function areatrapezio($basemenor, $basemaior, $altura){
+    return(($basemenor + $basemaior) * $altura / 2);}
 
 }
-
-
 
 
 ?>
